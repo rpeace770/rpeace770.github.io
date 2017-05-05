@@ -2,9 +2,20 @@ body {
 	background-color: white;
 }
 
+header {
+	margin: 10px;
+	background-color: green;
+	border-radius: 10px;
+}
+
+header h1 {
+	text-align: center;
+}
+
 img {
-	width: 500px;
-	height: 500px;
+	/*width: 500px;
+	height: 500px;*/
+	width: 50%;
 }
 
 table, td, tr, th {
@@ -16,6 +27,27 @@ table {
 	max-width: 700px;
 	width: 60%;
 }
+
+#about h2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#about {
+	position: relative;
+	margin-left: 10px;
+	border: 1px solid black;
+}
+
+#commission {
+
+}
+
+#contact {
+
+}
+
+
 
 
 
