@@ -1,11 +1,12 @@
 body {
-	background-color: white;
+	/*background-image: url(paintings/background\ copy2.jpeg);*/
+	font-family: 'Raleway', sans-serif;
 }
 
 header {
-	margin: 10px;
-	background-color: green;
-	border-radius: 10px;
+	/*margin: 10px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 header h1 {
@@ -13,13 +14,23 @@ header h1 {
 }
 
 img {
-	/*width: 500px;
-	height: 500px;*/
-	width: 50%;
+	max-width: 500px;
 }
+
+a:visited {
+	color: green;
+}
+
+#table {
+	margin-left: 25%;
+}
+
 
 table, td, tr, th {
 	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	font-family: monospace;
 }
 
 table {
@@ -28,24 +39,51 @@ table {
 	width: 60%;
 }
 
-#about h2 {
-	display: inline-block;
+#gallery {
+
+}
+
+.wall {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.odd {
+	display:inline-block;
+}
+
+.oddtext {
+	display:inline-block;
 	vertical-align: top;
+	margin-left: 200px;
+	margin-top: 200px;
+	padding-left: 50px;
 }
 
-#about {
-	position: relative;
-	margin-left: 10px;
-	border: 1px solid black;
-}
-
-#commission {
+#even {
+	display:inline-block;
+	vertical-align: top;
+	margin-top: 200px;
+	margin-left: 100px;
 
 }
 
-#contact {
-
+#evenimage {
+	display:inline-block;
+	margin-left: 300px;
 }
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
 
 
 
