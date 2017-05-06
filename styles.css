@@ -1,16 +1,20 @@
 body {
-	/*background-image: url(paintings/background\ copy2.jpeg);*/
+	background-image: url(paintings/IMG_1238.JPG);
+	/*background-size: 1200px 1000px;*/
 	font-family: 'Raleway', sans-serif;
 }
 
 header {
 	/*margin: 10px;*/
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #F9F9F6;
+	margin-bottom: 10px;
 }
 
 header h1 {
 	text-align: center;
+	font-size: 2em;
 }
 
 img {
@@ -31,6 +35,8 @@ table, td, tr, th {
 	text-align: center;
 	padding: 5px;
 	font-family: monospace;
+	background-color: #F9F9F6;
+
 }
 
 table {
@@ -44,12 +50,14 @@ table {
 }
 
 .wall {
-	margin-left: 50px;
-	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #F9F9F6;
 }
 
 .odd {
 	display:inline-block;
+	margin: 10px 0px 10px 20px;
 }
 
 .oddtext {
@@ -70,7 +78,7 @@ table {
 
 #evenimage {
 	display:inline-block;
-	margin-left: 300px;
+	margin-left: 250px;
 }
 
 footer {
