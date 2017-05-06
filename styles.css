@@ -1,15 +1,18 @@
 body {
 	background-image: url(paintings/IMG_1238.JPG);
 	/*background-size: 1200px 1000px;*/
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'PT Serif', serif;
 }
 
 header {
 	/*margin: 10px;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #F9F9F6;
-	margin-bottom: 10px;
+	background: rgba(255, 255, 255, 0.6);
+	margin: 0px 150px 10px 150px;
+	font-family: 'Poppins', sans-serif;
 }
 
 header h1 {
@@ -25,6 +28,26 @@ a:visited {
 	color: green;
 }
 
+#about {
+	margin-left: 150px;
+	margin-right: 150px;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+#about p {
+	padding: 10px;
+}
+
+#contact p {
+	padding: 10px;
+}
+
+#contact {
+	margin-left: 150px;
+	margin-right: 150px;
+	background: rgba(255, 255, 255, 0.6);
+}
+
 #table {
 	margin-left: 25%;
 }
@@ -34,25 +57,34 @@ table, td, tr, th {
 	border: 1px solid black;
 	text-align: center;
 	padding: 5px;
-	font-family: monospace;
-	background-color: #F9F9F6;
-
 }
 
 table {
 	min-width: 300px;
 	max-width: 700px;
 	width: 60%;
+	background: rgba(255, 255, 255, 0.6);
+	margin-bottom: 10px;
 }
 
-#gallery {
-
+#facts {
+	margin-left: 150px;
+	margin-right: 150px;
+	background: rgba(255, 255, 255, 0.6);
 }
+
+#facts h3, ul {
+	padding-left: 20px;
+}
+
+/*#gallery {
+	min-width: 1400px;
+}*/
 
 .wall {
 	margin-left: 150px;
 	margin-right: 150px;
-	background-color: #F9F9F6;
+	background: rgba(255, 255, 255, 0.6);
 }
 
 .odd {
@@ -65,7 +97,6 @@ table {
 	vertical-align: top;
 	margin-left: 200px;
 	margin-top: 200px;
-	padding-left: 50px;
 }
 
 #even {
@@ -78,16 +109,24 @@ table {
 
 #evenimage {
 	display:inline-block;
-	margin-left: 250px;
+	margin-left: 200px;
 }
 
 footer {
 	padding-top: 50px;
 	padding-bottom: 20px;
 	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	background: rgba(255, 255, 255, 0.6);
+	clear: right;
 }
 
-
+@media screen and (min-width: 500px) {
+  img {
+    min-width: 100px;
+  }
+}
 
 
 
