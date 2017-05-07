@@ -15,6 +15,10 @@ header {
 	font-family: 'Poppins', sans-serif;
 }
 
+.index {
+	min-width: 1100px;
+}
+
 header h1 {
 	text-align: center;
 	font-size: 2em;
@@ -77,9 +81,9 @@ table {
 	padding-left: 20px;
 }
 
-/*#gallery {
+#gallery {
 	min-width: 1400px;
-}*/
+}
 
 .wall {
 	margin-left: 150px;
@@ -88,19 +92,19 @@ table {
 }
 
 .odd {
-	display:inline-block;
+	display: inline-block;
 	margin: 10px 0px 10px 20px;
 }
 
 .oddtext {
-	display:inline-block;
+	display: inline-block;
 	vertical-align: top;
 	margin-left: 200px;
 	margin-top: 200px;
 }
 
 #even {
-	display:inline-block;
+	display: inline-block;
 	vertical-align: top;
 	margin-top: 200px;
 	margin-left: 100px;
@@ -108,8 +112,8 @@ table {
 }
 
 #evenimage {
-	display:inline-block;
-	margin-left: 200px;
+	display: inline-block;
+	margin-left: 250px;
 }
 
 footer {
@@ -122,14 +126,14 @@ footer {
 	clear: right;
 }
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
   img {
     width: 100px;
   }
   div {
   	width: 150px;
   }
-}
+}*/
 
 
 
